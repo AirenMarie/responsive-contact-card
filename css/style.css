@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3873a3;
+}
+
+#cardholder {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #38a353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+#card-body {
+  width: 90%;
+  height: 90%;
+  background-color: #fbffed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+img {
+  max-width: 250px;
+  border-radius: 15px;
+}
+
+#info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact,
+#company {
+  color: #1e592d;
+  text-align: center;
+}
+
+#contact {
+  line-height: 0.7;
+  margin-bottom: 5px;
+}
+
+#company {
+  font-family: "ivysoft-variable", sans-serif;
+  line-height: 0.4;
+  color: #3873a3;
+  margin-top: 5px;
+}
+
+#company h1 {
+  font-variation-settings: "slnt" 0, "wght" 600;
+  font-size: 2.5em;
+}
+
+#company p {
+  font-variation-settings: "slnt" 1, "wght" 400;
+  font-style: italic;
+}
+
+@media screen and (min-width: 500px) {
+}
